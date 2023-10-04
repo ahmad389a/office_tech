@@ -1,0 +1,189 @@
+.badge {
+  position: absolute;
+  top: 5px;
+  right: -2px;
+  background-color: red;
+  color: #323232;
+  padding: 2px 7px;
+  border-radius: 50%;
+  font-size: 12px;
+  background-color: #ededed;
+}
+.btn-text {
+  color: #fff !important;
+  font-family: "Figtree";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.183px;
+  border-radius: 147px;
+  background: #00a9e1;
+  border: none;
+  margin-left: 32px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.btn-text:hover {
+  background: #828e9f;
+  transition: 0.3s;
+}
+.user-a {
+  margin-left: 32px;
+  color: #323232 !important;
+  text-align: right;
+  font-family: "Figtree";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.183px;
+  text-transform: capitalize;
+}
+.user-a::after {
+  display: none;
+}
+.user-img {
+  margin-left: 7px;
+  margin-bottom: 5px !important;
+}
+.order-img {
+  margin-left: 7px;
+}
+.main-logo {
+  height: 66px;
+  width: 179.275px;
+}
+.search-field-div {
+  border-radius: 67px;
+  background-color: #f0f0f0;
+  width: 538.784px;
+  height: 45px;
+}
+.search-field-btn {
+  background-color: transparent;
+  color: #bbbbbb;
+  border: none;
+}
+.search-field {
+  background-color: transparent;
+  border: none;
+  width: 486px;
+}
+.search-field:focus {
+  outline: none;
+  border: none;
+}
+.navbar-container {
+  padding-top: 23px;
+}
+.user-icon-dropdown::before {
+  content: "";
+  height: 7px;
+  width: 22px;
+  display: inline-table;
+  bottom: 5px;
+  margin-bottom: 0px;
+  border-top: 1px solid;
+  padding-right: 0px !important;
+  margin-right: 10px;
+}
+.user-icon-dropdown {
+  font-family: "Figtree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.183px;
+  text-transform: capitalize;
+}
+.user-icon-dropdown:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: #00a9e1;
+  background-color: transparent;
+}
+/* 2nd Nav css  */
+/* Style for the main navigation */
+.categories-container
+{
+  background-color:#00A9E1;
+  display: flex;
+
+}
+.main-nav {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.main-nav li {
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+.main-nav li:hover{
+  background-color: #0383AD;
+  transition: 0.5s;
+}
+.main-category-li::after {
+  content: url('../images/down-arrow.png');
+  margin-left: 5px;
+}
+
+.main-nav li a {
+  display: block;
+  padding: 10px 20px;
+  color: #FFF;
+  font-family: "Figtree";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.183px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+/* Style for the sub-navigation */
+.sub-nav {
+  display: none;
+  position: absolute;
+  background-color: #FFF;
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  width: auto; /* Set the initial width to auto */
+  min-width: 100%; /* Set a default minimum width */
+}
+
+.main-nav li:hover .sub-nav {
+  display: block;
+  transition: 0.5s;
+  margin-left: -10px;
+}
+
+.sub-nav li {
+  display: block;
+  white-space: nowrap;
+  width: 100%; /* Make each sub-nav item as wide as its content */
+  white-space: normal; /* Allow text to wrap onto the next line */
+}
+
+.sub-nav li a {
+  padding: 10px 20px;
+  color: #323232;
+  font-family: "Figtree";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.183px;
+  text-decoration: none;
+  white-space: normal; /* Allow text to wrap onto the next line */
+
+}

@@ -1,0 +1,123 @@
+.footer {
+  padding: 20px 0;
+}
+.footer-logo {
+  width: 161.66px;
+  height: 59.523px;
+  flex-shrink: 0;
+}
+.footer-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-category ul li {
+  margin-bottom: 5px;
+}
+.footer-contact {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-contact li {
+  margin-bottom: 8px;
+}
+.footer-contact i {
+  margin-right: 5px;
+}
+.footer-category ul li a {
+  text-decoration: none;
+  color: #424246;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Figtree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 137.5% */
+}
+.footer-contact li a {
+  text-decoration: none;
+  color: #424246;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Figtree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 137.5% */
+}
+.footer-contact li a i {
+  text-decoration: none;
+  color: #424246;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Figtree";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 137.5% */
+}
+.footer-social-icon {
+  background-color: #999;
+  padding: 6px;
+  border-radius: 20px;
+}
+img {
+  object-fit: cover;
+}
+.footer-p {
+  margin-top: 33px !important;
+  color: var(--Text_Gray, #999);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Figtree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.footer-payment-img {
+  margin-top: 32px !important;
+}
+.footer-social-img {
+  margin-top: 32px !important;
+}
+.footer-section-heading {
+  color: var(--Text_Black, #333);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Figtree";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.footer-bottom-a1
+{
+  color: #999;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: "Figtree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 87px;
+  cursor: pointer;
+  display: inline;
+}
+.footer-bottom-a2
+{
+  color: #999;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: "Figtree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  cursor: pointer;
+  display: inline;
+
+}
+a
+{
+  text-decoration: none;
+  color: #999;
+}
+a:hover
+{
+  color: #999;
+}
